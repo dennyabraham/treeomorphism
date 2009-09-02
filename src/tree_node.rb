@@ -1,10 +1,10 @@
-require File.dirname(__FILE__) + '/advanced_array'
+require File.dirname(__FILE__) + '/array'
 class TreeNode
   
   attr_reader :children
   
   def initialize
-    @children = AdvancedArray.new
+    @children = []
   end
   
   def << child
