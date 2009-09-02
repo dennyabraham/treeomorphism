@@ -1,5 +1,7 @@
 require File.dirname(__FILE__) + '/../src/tree_node'
 
+# TODO - DSA - need more tests
+
 describe TreeNode do
 
   it "should take subnodes" do
